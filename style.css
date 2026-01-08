@@ -1,0 +1,127 @@
+/*Universal Selector*/
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+.inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+
+
+/*Shared Selector*/
+.My-btn{
+    width: 162px;
+    height: 44px;
+    padding: 12px 16px 12px 16px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #30B868;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+/*Main Selector*/
+.nav-parent{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0px 16px 0px;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-parent .nav-list li{
+    display: inline;
+    gap: 48px;
+    font-size: 12px;
+    list-style:none;
+}
+.banner-parent{
+    background-image: url(./assets/hero-bg.png);
+    margin: 0 auto;
+    padding: 120px 120px 190px 120px;
+    background-repeat: no-repeat;
+}
+.banner-parent .banner-head{
+    margin: 0 auto;
+    background-color: azure;
+    width: 229px;
+    font-weight: 500;
+    padding: 8px 12px 8px 12px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.banner-head span {
+    color:var(--#30B868, rgba(70, 145, 101, 1)) ;
+}
+.banner-down h1{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+#h2{
+    color: rgba(48, 184, 104, 1);
+}
+.banner-last{
+    text-align: center;
+    color:  rgba(255, 255, 255, 1);
+    line-height: 24px;
+    font-size: 18;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+#btn{
+    text-align: center;
+    gap: 30px;
+}
+#png{
+    width: 15.63px;
+    height: 13.13px;
+}
+#btn1{
+    background-color: #30B868;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    align-items: center;
+    justify-items: center;
+    font-size: 14px;
+    
+    font-weight: 600;
+    color:rgba(255, 255, 255, 1) ;
+}
+#btn2{
+    background: transparent; 
+    border: 1px solid rgba(255, 255, 255, 1) ;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+     align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color:rgba(255, 255, 255, 1) ;
+}
+.middle-parent{
+    padding: 30px 120px 44px 120px;
+    text-align: center;
+}
+#header{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+#header2{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    margin-bottom: 44px;
+}
