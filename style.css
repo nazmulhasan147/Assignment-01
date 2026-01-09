@@ -132,20 +132,22 @@
 .card-container{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 .card-container img{
-    width: 80px;
-    height: 65px;
+    width: 55px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    
 }
 .card{
-    width: 280px;
-    height: 235px;
+    width: 250px;
+    height: 230px;
     justify-content: center;
     text-align: center;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.09);
     background: rgba(255, 255, 255, 1);
 }
 .card h3{
@@ -159,14 +161,7 @@
     line-height: 20px;
  
 }
-#id2{
-    width: 60px;
-    height: 65px;
-}
-#id3{
-    width: 120px;
-    height: 65px;
-}
+
 .hero{
     display: flex;
     justify-content: center;
