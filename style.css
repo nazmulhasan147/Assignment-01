@@ -51,7 +51,7 @@
 .banner-parent .banner-head{
     margin: 0 auto;
     background-color: azure;
-    width: 229px;
+    width: 210px;
     font-weight: 500;
     padding: 8px 12px 8px 12px;
     border-radius: 50px;
@@ -59,8 +59,8 @@
     justify-content: center;
     margin-bottom: 24px;
 }
-.banner-head span {
-    color:var(--#30B868, rgba(70, 145, 101, 1)) ;
+#gg {
+    color:var(--#0ae866, rgba(70, 145, 101, 1)) ;
 }
 .banner-down h1{
     margin: 0 auto;
@@ -69,6 +69,12 @@
     font-size: 72px;
     line-height: 84px;
     margin-bottom: 16px;
+}
+#green{
+    width: 10px;
+    height: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 #h2{
     color: rgba(48, 184, 104, 1);
